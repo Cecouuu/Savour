@@ -48,6 +48,8 @@
     letter-spacing: 2px;
     display: flex;
     align-items: center;
+    justify-content: start;
+    font-weight: 600;
     gap: 11px;
     font-size: 10px;
     font-family: "Libre Caslon Display";;
