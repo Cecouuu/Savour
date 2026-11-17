@@ -13,7 +13,17 @@
 /*Unauthorized copying, redistribution or claiming this project as your own is prohibited.*/
 /*--------------------------------------------------*/
 
+@media (min-width: 768px){
+    .philosophy{
+        padding: 50px clamp(28px, 10vw + 15px, 225px);
+    }
+}
+
 @media (max-width: 768px){
+    .hero-text .text1{
+        font-size: 18px;
+        line-height: 1.525rem;
+    }
     .nav-bar{
         display: none;
     }
@@ -37,6 +47,10 @@
     }
 }
 @media (max-width:  425px){
+    .hero-text .text1{
+        font-size: 13px;
+        line-height: 1.525rem;
+    }
     .hero-text{
         width: 100%;
     }
